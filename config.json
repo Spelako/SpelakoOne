@@ -1,0 +1,39 @@
+{
+	"commands": [
+		{
+			"file": "Help.php",
+			"config": {
+				"resource": "help.json"
+			}
+		},
+		{
+			"file": "Hypixel.php",
+			"config": {
+				"resource": "hypixel.json",
+				"api_key": "1703d128-ddec-4b92-b2bb-4ed821c8aad8",
+				"timezone_offset": 28800
+			}
+		},
+		{
+			"file": "Minecraft.php",
+			"config": {
+				"resource": "minecraft.json"
+			}
+		},
+		{
+			"file": "Spelako.php",
+			"config": {
+				"resource": "spelako.json"
+			}
+		},
+		{
+			"file": "Syuu.php",
+			"config": {
+				"resource": "syuu.json"
+			}
+		}
+	],
+	"staffs": ["admin", "123456789"],
+	"cooldown": 5,
+	"cooldown_message": "你使用命令的频率过高, 喝杯茶休息一下吧!"
+}
