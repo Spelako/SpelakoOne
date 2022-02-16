@@ -2,7 +2,7 @@
 /*
  * Copyright (C) 2020-2022 Spelako Project
  * 
- * This file is part of SpelakoMAHA.
+ * This file is part of SpelakoOne.
  * Permission is granted to use, modify and/or distribute this program 
  * under the terms of the GNU Affero General Public License version 3.
  * You should have received a copy of the license along with this program.
@@ -44,7 +44,7 @@ $core = new SpelakoCore(realpath($cliargs['config']));
 
 echo SpelakoUtils::buildString([
 	'Copyright (C) 2020-2022 Spelako Project',
-	'This program licensed under the GNU Affero General Public License version 3 (AGPLv3).'
+	'This program is licensed under the GNU Affero General Public License version 3 (AGPLv3).'
 ]).PHP_EOL;
 
 _log('成功在本地启动端口为 '.$localPort.' 的事件监听 HTTP 服务器. 开始监听请求...');
